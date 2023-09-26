@@ -1,0 +1,35 @@
+# install postgresql
+sudo apt install postgresql postgresql-contrib
+
+
+# open db
+sudo -i -u postgres
+
+# open psql
+psql
+
+
+# open dev_db of dev user 
+sudo -u dev psql dev_db
+
+# Connect postgres
+# connent to postgreSQL database server using psql
+# connect the postgres to window terminal
+psql -h localhost -p 5432 -U "user" "db_name"
+
+# for restart the postgresql
+sudo service postgresql restart
+
+# change the method (peer, md5, trust) in "pg_hba.conf"
+sudo nano /etc/postgresql/15/main/pg_hba.conf
+
+
+# make other user superuser from superuser
+ALTER USER dev WITH SUPERUSER;
+ALTER USER dev WITH NOSUPERUSER;
+
+# from super user 
+GRANT USAGE ON SCHEMA public TO your_user;
+
+# install pg for ruby to run postgre in ruby file
+gem install pg

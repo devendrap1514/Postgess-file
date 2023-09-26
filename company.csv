@@ -1,0 +1,9 @@
+id| Name  |  age | address  |  salary | join_date
+  1 | Paul  |  32 | California|  20000 | 2001-07-13
+  3 | Teddy |  23 | Norway    |  20000 |
+  4 | Mark  |  25 | Rich-Mond |  65000 | 2007-12-13
+  5 | David |  27 | Texas     |  85000 | 2007-12-13
+  2 | Allen |  25 | Texas     |      0  | 2007-12-13
+  8 | Paul  |  24 | Houston   |  20000 | 2005-07-13
+  9 | James |  44 | Norway    |   5000 | 2005-07-13
+ 10 | James |  45 | Texas     |   5000 | 2005-07-13

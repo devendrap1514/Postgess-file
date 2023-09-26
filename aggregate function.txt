@@ -1,0 +1,3 @@
+1. 'LENGTH()' -> this function gets the number of characters of an input string.
+
+2. 
